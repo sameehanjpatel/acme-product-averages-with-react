@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: 1rem;
+    background-color:lightgray;
+    text-decoration: none;       
+}
+.selected{
+    padding: 10px;
+    border:solid 1px black;
+}
