@@ -8,7 +8,7 @@ const Home = () => {return (<h1>Home</h1>)};
 
 //logic is here - don't understand why the products variable is undefined here 
 function Products({ products, companies, offerings }){ 
-     products.map(product => {
+    return(products.map(product => {
     <ul>
         <li><b>Product:</b>
         <p>{product.name}</p></li>
@@ -34,8 +34,8 @@ function Products({ products, companies, offerings }){
         
 
     </ul>
-    <hr>
-    })
+    <hr>}
+   ) 
 }
 
 
